@@ -1,0 +1,68 @@
+body{
+    background-image: url("../../setts/images/degradado.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contenedor-grid {
+    display: flex;
+    position:absolute;
+    width: 80vh;
+    left: 155vh;
+    top: 11vh;
+    position: fixed;
+    height: 6vh;
+    align-items: center;
+}
+.elemento2{
+    border: 1px solid rgba(5, 150, 247, 0);
+    padding: 10px;
+    background-color: rgba(90, 137, 168, 0.37);
+    border-radius: 1.5vh;
+    font-family:monospace;
+    font-size: 2.5vh;
+    cursor: pointer;
+    position: absolute;
+    left: 29vh;
+    top: 1vh;
+    font-weight: bold;
+    
+}
+.elemento1{
+    font-family:monospace;
+    font-size: 2.8vh;
+    cursor: pointer;
+    position:absolute;
+    font-weight: bold;
+    
+    
+
+}
+.agregar{
+    width: 4.7vh;
+    position: absolute;
+    left: 17vh;
+    top: 2vh;
+  
+}
+.texto_bienvenida{
+    position: absolute;
+    top: 42vh;
+    left: 20vh;
+    font-size: 7vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+   
+}
+.subrayado{
+    text-decoration: none;
+    color:black;
+    width: 1px;
+    
+}
+.swal2-popup {
+    border-radius: 30px;
+    
+  }
+

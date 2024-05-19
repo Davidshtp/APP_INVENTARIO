@@ -1,0 +1,74 @@
+.contenedor_modal{
+    position: absolute;
+    display: grid;
+    place-items:center;
+    height: 100vh;
+    width: 226.6vh;
+    left: 0;
+    top: 0;
+    background-color: #0000005d;
+}
+.caja_modal_categorias{
+    height: 60vh;
+    width: 90vh;
+    border-radius: 4vh;
+    background-color: rgb(255, 255, 255);
+   
+}
+.titulo_modal{
+text-align: center;
+font-family: monospace;
+padding-top: 2vh
+}
+.contenedor_acciones_prodcuto{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6vh;
+    width: 78vh;
+    height: 25vh;
+   
+    gap: 20px;
+}
+.agregar_prodcuto{
+    padding: 1.8vh;
+    font-family: monospace;
+    position:relative;
+    left: 31vh;
+    top: 1.5vh;
+    background-color: rgba(78, 248, 10, 0.699);
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+.cancelar_prodcuto{
+    padding: 1.8vh;
+    font-family: monospace;
+    position:relative;
+    left: 31vh;
+    top: 1.5vh;
+    background-color: rgba(255, 0, 0, 0.637);
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bolder;
+    
+}
+.inputs{
+    border-radius: 2vh;
+    border-color: #000;
+    text-align: center;
+    width: 36vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+.seleccionar{
+    border-radius: 2vh;
+    text-align: center;
+    width: 37vh;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #000;
+}
+.contenedor_btn{
+    display: flex;
+    gap: 20px;
+}

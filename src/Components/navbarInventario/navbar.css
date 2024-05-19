@@ -1,0 +1,136 @@
+.contenedor{
+    width: 226.5vh;
+    background-color: rgba(33, 32, 37, 0.753);
+    position: absolute;
+    left: 0;
+    top:0;
+    height:100vh
+}
+.superior{
+    position: absolute;
+    display: flex;
+    top: 3rem;
+    left: 2.7rem;
+    right: 2.5rem;
+    height: 6vh;
+    align-items: center;
+    font-family: monospace;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.barra_buscar{
+    position: absolute;
+    left: 35%;
+    width: 65vh;
+    height: 5vh;
+    border-radius: 2vh;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(255, 255, 255);
+    text-indent: 21vh;
+}
+.buscar{
+    position: absolute;
+    height: 6vh;
+    left: 62.5%;
+}
+.barra_buscar::placeholder{
+    font-size: 3vh;
+    font-family: monospace;
+    font-weight: bold;
+}
+.logo_usuario{
+    height: 6vh;
+    margin-left: 4vh;
+}
+.usuario_contenedor{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    right: 10vh;    
+    font-family: monospace;
+    font-size: 3vh;
+    font-weight: bold;
+}
+.barra_lateral{
+    background-color: rgba(68, 76, 82, 0.103);
+    height: 100vh;
+    width: 36vh;
+    position: absolute;
+    
+    
+}
+.categorias{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.productos{
+    text-align: center;
+    font-family: monospace;
+    font-size: 3vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo_cerrar_sesion{
+    height: 6vh;
+    margin-left: 2vh;
+}
+.cerrar{
+    display: flex;
+    position: absolute;
+    left: 4vh;
+    bottom: 3vh;
+    align-items: center;
+    font-family: monospace;
+    font-size: 3vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contenedor_categorias{
+    display: flex;
+    padding: 2vh;
+    border: 1px solid #000;
+    position: absolute;
+    left: 5vh;
+    top: 50vh;
+    width: 23vh;
+    
+}
+.logo_categoria{
+    height: 5vh;
+    margin-right: 2vh;
+}
+.logo_producto{
+    height: 5vh;
+    margin-right: 2vh;
+}
+.contenedor_productos{
+    display: flex;
+    padding: 2vh;
+    border: 1px solid #000;
+    position: absolute;
+    left: 5vh;
+    top: 70vh;
+    width: 23vh;
+}
+.img_user{
+    position: absolute;
+    height: 10vh;
+    left: 12vh;
+    top: 17vh;
+    z-index: 2;
+}
+.circulo{
+    background-color: rgba(68, 68, 68, 0.979);
+    height: 16vh;
+    width: 16vh;
+    border-radius: 100vh;
+    left: 9vh;
+    top: 15vh;
+    position: absolute;
+}
+    
+
+

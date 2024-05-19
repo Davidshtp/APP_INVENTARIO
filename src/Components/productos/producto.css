@@ -1,0 +1,56 @@
+.caja{
+    background-color: rgba(255, 255, 255, 0.034);
+    height: 35vh;
+    width: 35vh;
+}
+.container_caja{
+    border-radius: 4vh;
+    padding: 2rem;
+    top: 20vh;
+    position: absolute;
+    left: 40vh;
+    height: 67vh;
+    width: 171vh;
+    background-color: rgba(33, 62, 87, 0.116);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+    overflow-y: scroll;
+}
+.agregar_logo{
+    height: 35vh;
+    opacity: 30%;
+    cursor: pointer;
+}
+.titulo_producto{
+    font-family:monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 4vh;
+    padding-top: 3vh;
+    text-transform: uppercase;
+}
+.info_producto{
+    padding-top: 2vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.8vh;
+
+}
+.info_producto_status{
+    padding-top: 2vh;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.8vh;
+}
+.logo_editar{
+    padding-top: 2vh;
+    height: 3vh;
+    cursor:pointer;
+}
+.contenedor_btn_productos{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3vh;
+    gap: 15px;
+}

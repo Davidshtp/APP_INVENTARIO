@@ -1,0 +1,57 @@
+.target{
+    display:grid;
+    width: 80vh;
+    border: 1px solid hsla(0, 0%, 0%, 0.144);
+    padding: 5vh;
+    border-radius: 5vh;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#0001021c ;;
+    grid-gap: 4vh;
+    text-align: center;
+    place-items: center;
+    font-family: monospace;
+    
+    
+    
+
+
+}
+.input::placeholder{
+    color: #000000;
+}
+.input{
+    border: #9ACCCB;
+    background-color:rgba(209, 241, 252, 0.295);
+    width: 40vh;
+    height:7vh;
+    text-align: center;
+    font-size: 3vh;
+    border-radius: 1vh;
+}
+.btn_Iniciar{
+    padding: 1.5vh;
+    border: #000000;
+    border-radius: 1vh;
+    background-color: rgba(8, 3, 0, 0.295);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.98vh;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.pages_back{
+    position: relative;
+    width: 7vh;
+    padding: 1rem;
+    cursor:pointer;
+    
+}
+.flex{
+    width: 60%;
+    display:flex;
+    justify-content: space-around;
+}
+
